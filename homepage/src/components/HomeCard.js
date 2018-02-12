@@ -51,14 +51,23 @@ const styles = {
     marginBottom: 5,
     color: 'white',
     fontSize: 16,
-    fontWeight: 'bold'
+    fontFamily: 'OpenSans-Bold',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 1
   },
 
   cityTextStyle: {
     marginTop: 5,
     marginBottom: 5,
     color: 'white',
-    fontSize: 12
+    fontSize: 12,
+    fontFamily: 'OpenSans-Semibold',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 1
   },
 
   copyrightTextStyle: {
@@ -67,11 +76,17 @@ const styles = {
     marginTop: 12,
     marginBottom: 8,
     color: 'white',
-    fontSize: 10
+    fontSize: 10,
+    fontFamily: 'OpenSans',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.5,
+    shadowRadius: 1
   },
 
   imageStyle: {
     flex: 1,
+    borderRadius: 2
   }
 };
 
