@@ -1,3 +1,10 @@
 import data from './LibraryList.json';
 
-export default () => data;
+const LibraryReducer = (state = data, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default LibraryReducer;

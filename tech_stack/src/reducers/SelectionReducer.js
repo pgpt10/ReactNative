@@ -1,4 +1,5 @@
-export default (state = null, action) => {
+const SelectionReducer = (state = null, action) => {
+  console.log(action);
   switch (action.type) {
     case 'SELECT_LIBRARY':
       return action.id;
@@ -7,3 +8,5 @@ export default (state = null, action) => {
       return state;
   }
 };
+
+export default SelectionReducer;

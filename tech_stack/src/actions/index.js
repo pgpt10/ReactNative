@@ -1,4 +1,4 @@
-export const selectLibrary = (id) => ({
+export const selectLibrary = (libraryId) => ({
     type: 'SELECT_LIBRARY',
-    id
+    id: libraryId
   });
