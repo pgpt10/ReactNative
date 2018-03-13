@@ -1,4 +1,4 @@
-import { EMPLOYEE_UPDATE } from '../actions/types';
+import { EMPLOYEE_UPDATE, EMPLOYEE_CREATE } from '../actions/types';
 
 const INITIAL_STATE = {
   name: '',
@@ -12,6 +12,9 @@ const EmployeeFormReducer = (state = INITIAL_STATE, action) => {
     case EMPLOYEE_UPDATE:
       return { ...state, [payload.prop]: payload.value }; //key interpolation
 
+    case EMPLOYEE_CREATE:
+      return INITIAL_STATE;
+      
     default:
       return state;
   }
